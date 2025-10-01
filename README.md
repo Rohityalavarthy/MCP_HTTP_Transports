@@ -43,19 +43,22 @@ Run the MCP HTTP server
 python main.py
 The server runs by default at:
 http://localhost:8000/mcp/
-🌐 Using the Web Client
+
+## 🌐 Using the Web Client
 Open index.html in your browser.
 Click Initialize Request to start a session.
 Send Initialized Notification.
 Try a Tool Call (e.g., add 5 + 3).
 Experiment with Custom Requests (tools/list, etc.).
 Start SSE monitoring to observe server-initiated events.
-📖 Learning Goals
+
+## 📖 Learning Goals
 This repo is designed as a learning and experimentation playground for:
 Understanding the MCP specification.
 Exploring HTTP transport mechanisms for MCP.
 Working with streaming responses using SSE.
-🤝 Contributing
+
+## 🤝 Contributing
 Feel free to open issues or PRs if you’d like to extend this demo with more MCP features or UI enhancements.
 
 
